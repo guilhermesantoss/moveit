@@ -52,22 +52,31 @@
   transition: background-color 0.2s;
 }
 
+.countdownButton img,
+.countdownButton svg {
+  margin-left: 1rem;
+}
+
 .countdownButton:not(:disabled):hover {
   background: var(--blue-dark);
 }
 
 .countdownButtonActive {
   background: var(--white);
-  color: var(--title);
+  color: var(--text);
 }
-
 .countdownButtonActive:not(:disabled):hover {
   background: var(--red);
   color: var(--white);
+}
+
+.countdownButtonActive:not(:disabled):hover svg {
+  fill: var(--white);
 }
 
 .countdownButton:disabled {
   background: var(--white);
   color: var(--text);
   cursor: not-allowed;
+  border-bottom: 4px solid var(--green);
 }
