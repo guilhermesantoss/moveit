@@ -14,14 +14,14 @@ export default class MyDocument extends Document {
           <meta property="og:url" content="https://moveit-guilhermesantoss.vercel.app/" />
           <meta property="og:title" content="Move.it" />
           <meta property="og:description" content="Aplicação feita em Next.js para você que usa muito o computador se exercitar durante a sua rotina." />
-          <meta property="og:image" content="" />
+          <meta property="og:image" content="og-image.svg" />
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
           <meta property="twitter:url" content="https://moveit-guilhermesantoss.vercel.app/" />
           <meta property="twitter:title" content="Move.it" />
           <meta property="twitter:description" content="Aplicação feita em Next.js para você que usa muito o computador se exercitar durante a sua rotina." />
-          <meta property="twitter:image" content="" />
+          <meta property="twitter:image" content="og-image.svg" />
           <link rel="shortcut icon" href="favicon.png" type="image/png" />
 
           <link rel="preconnect" href="https://fonts.gstatic.com" />
