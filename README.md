@@ -1,6 +1,3 @@
-# moveit
-
-
 # Move.it
 
 <p>
