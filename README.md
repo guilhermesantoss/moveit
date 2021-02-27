@@ -69,6 +69,7 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org)
 
 ## Contribuição
 
