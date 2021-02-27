@@ -1,10 +1,10 @@
 <p align="center"><img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/logo-full.svg" alt="Logo" /></p>
 
 <p align="center">
-  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/moveit?color=darkblue" alt="Repository Size" />
-  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/moveit?color=darkblue" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/moveit?color=darkblue" alt="Languages Used" />
-  <img src="https://img.shields.io/github/license/guilhermesantoss/moveit?color=darkblue" alt="License" />
+  <img src="https://img.shields.io/github/repo-size/guilhermesantoss/moveit?style=for-the-badge&color=darkblue" alt="Repository Size" />
+  <img src="https://img.shields.io/github/last-commit/guilhermesantoss/moveit?style=for-the-badge&color=darkblue" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/count/guilhermesantoss/moveit?style=for-the-badge&color=darkblue" alt="Languages Used" />
+  <img src="https://img.shields.io/github/license/guilhermesantoss/moveit?style=for-the-badge&color=darkblue" alt="License" />
 </p>
 
 <details open="open">
