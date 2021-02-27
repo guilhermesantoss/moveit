@@ -72,7 +72,7 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 
 ## Contribuição
 
-As contribuições são o que tornam a comunidade de **Open Source** um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito bem vindas**
+As contribuições são o que tornam a comunidade de **Open Source** um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito bem vindas**.
 
 1. Faça o fork do projeto
 2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
