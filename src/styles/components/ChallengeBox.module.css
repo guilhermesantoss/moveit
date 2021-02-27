@@ -99,3 +99,17 @@
 .challengeActive footer button:hover {
   filter: brightness(0.9);
 }
+
+@media (max-width: 720px) {
+  .challengeActive header {
+    padding: 0 0 0.9rem;
+  }
+
+  .challengeActive main img {
+    margin-top: 0.9rem;
+  }
+
+  .challengeActive main p {
+    margin-bottom: 0.9rem;
+  }
+}
