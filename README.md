@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/logo-full.svg" alt="Logo" />
+<p align="center"><img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/logo-full.svg" alt="Logo" /></p>
 
-<p>
+<p align="center">
   <img src="https://img.shields.io/github/repo-size/guilhermesantoss/moveit?color=darkblue" alt="Repository Size" />
   <img src="https://img.shields.io/github/last-commit/guilhermesantoss/moveit?color=darkblue" alt="Last Commit" />
   <img src="https://img.shields.io/github/languages/count/guilhermesantoss/moveit?color=darkblue" alt="Languages Used" />
