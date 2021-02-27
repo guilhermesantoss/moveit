@@ -13,7 +13,7 @@
     <li>
       <a href="#sobre-o-projeto">Sobre o projeto</a>
       <ul>
-        <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+        <li><a href="#tecnologias-utilizadas">Tecnologias utilizadas</a></li>
       </ul>
     </li>
     <li>
@@ -23,6 +23,8 @@
         <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
+    <li><a href="#abertura-de-issues">Abertura de issues</a></li>
+    <li><a href="#contribuição">Contribuição</a></li>
     <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
   </ol>
@@ -73,6 +75,9 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
    
    yarn dev
    ```
+## Abertura de Issues
+
+Para abrir uma issue reportando algum bug ou problema [open issues](https://github.com/guilhermesantoss/moveit/issues).
 
 ## Contribuição
 
