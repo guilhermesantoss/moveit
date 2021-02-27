@@ -9,6 +9,10 @@
 
 ## Sobre o projeto
 
+<br />
+<p align="center"><img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/login.png" alt="Logo" /></p>
+<br />
+
 O Projeto **Move.it** foi criado durante a semana Next Level Week #4.
 
 ## Instalando as dependências do projeto
