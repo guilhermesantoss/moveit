@@ -12,6 +12,9 @@
   <ol>
     <li>
       <a href="#sobre-o-projeto">Sobre o projeto</a>
+      <ul>
+        <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+      </ul>
     </li>
     <li>
       <a href="#iniciando-o-projeto">Iniciando o projeto</a>
@@ -20,7 +23,6 @@
         <li><a href="#instalação">Instalação</a></li>
       </ul>
     </li>
-    <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
     <li><a href="#licença">Licença</a></li>
     <li><a href="#contato">Contato</a></li>
   </ol>
@@ -33,6 +35,13 @@
 <br />
 
 O Projeto **Move.it** foi criado durante a semana Next Level Week #4.
+
+### Tecnologias utilizadas
+
+* [Next.js](https://nextjs.org/)
+* [React.js](https://reactjs.org/)
+* [Typescript](https://www.typescriptlang.org)
+
 
 ## Iniciando o projeto
 
@@ -64,12 +73,6 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
    
    yarn dev
    ```
-
-## Tecnologias utilizadas
-
-* [Next.js](https://nextjs.org/)
-* [React.js](https://reactjs.org/)
-* [Typescript](https://www.typescriptlang.org)
 
 ## Contribuição
 
