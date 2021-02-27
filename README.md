@@ -75,7 +75,7 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
    
    yarn dev
    ```
-## Abertura de Issues
+## Abertura de issues
 
 Para abrir uma issue reportando algum bug ou problema [open issues](https://github.com/guilhermesantoss/moveit/issues).
 
