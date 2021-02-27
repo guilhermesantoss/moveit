@@ -44,23 +44,23 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 ### Instalação
 
 1. Clone o repositório
-  ```sh
+   ```sh
     git clone https://github.com/guilhermesantoss/moveit.git
    ```
 2. Instale as dependências do projeto
-  ```sh
-   npm install
-   ```
-   ou
    ```sh
+   npm install
+   
+   ou
+   
    yarn install
    ```
 3. Execute o projeto
- ```sh
-   npm run dev
-   ```
-   ou
    ```sh
+   npm run dev
+   
+   ou
+   
    yarn dev
    ```
 
