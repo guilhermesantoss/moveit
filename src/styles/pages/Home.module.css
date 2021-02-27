@@ -18,6 +18,10 @@
 @media (max-width: 720px) {
   .container section {
     grid-template-columns: 1fr;
-    gap: 2rem;
+    gap: 3rem;
+  }
+
+  .container .mb10 {
+    margin-bottom: 10%;
   }
 }
