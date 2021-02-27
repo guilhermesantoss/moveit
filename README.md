@@ -7,6 +7,24 @@
   <img src="https://img.shields.io/github/license/guilhermesantoss/moveit?color=darkblue" alt="License" />
 </p>
 
+<details open="open">
+  <summary>Sumário</summary>
+  <ol>
+    <li>
+      <a href="#sobre-o-projeto">Sobre o projeto</a>
+    </li>
+    <li>
+      <a href="#iniciando-o-projeto">Iniciando o projeto</a>
+      <ul>
+        <li><a href="#pré-requisitos">Pré-requisitos</a></li>
+        <li><a href="#instalação">Instalação</a></li>
+      </ul>
+    </li>
+    <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
+    <li><a href="#licença">Licença</a></li>
+  </ol>
+</details>
+
 ## Sobre o projeto
 
 <br />
@@ -15,25 +33,36 @@
 
 O Projeto **Move.it** foi criado durante a semana Next Level Week #4.
 
-## Instalando as dependências do projeto
+## Iniciando o projeto
 
-Utilize o comando:
-```bash
-$ npm install
+Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 
-# OR
+### Pré-requisitos
+* Possuir o [Node](https://nodejs.org/en/) instalado na versão 14+
+* Possuir o [git](http://git-scm.com) instalado
 
-$ yarn install
-```
+### Instalação
 
-Agora que as dependências estão devidamente instaladas, vamos executar utilizando o comando:
-```bash
-$ npm run dev
-
-# OR
-
-$ yarn dev
-```
+1. Clone o repositório
+  ```sh
+    git clone https://github.com/guilhermesantoss/moveit.git
+   ```
+2. Instale as dependências do projeto
+  ```sh
+   npm install
+   ```
+   ou
+   ```sh
+   yarn install
+   ```
+3. Execute o projeto
+ ```sh
+   npm run dev
+   ```
+   ou
+   ```sh
+   yarn dev
+   ```
 
 ## Tecnologias utilizadas
 
