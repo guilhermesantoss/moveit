@@ -22,6 +22,7 @@
     </li>
     <li><a href="#tecnologias-utilizadas">Tecnologias Utilizadas</a></li>
     <li><a href="#licença">Licença</a></li>
+    <li><a href="#contato">Contato</a></li>
   </ol>
 </details>
 
@@ -69,6 +70,22 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 * [Next.js](https://nextjs.org/)
 * [React.js](https://reactjs.org/)
 
+## Contribuição
+
+As contribuições são o que tornam a comunidade de **Open Source** um lugar incrível para aprender, inspirar e criar. Quaisquer contribuições que você fizer são **muito bem vindas**
+
+1. Faça o fork do projeto
+2. Crie sua Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas alterações (`git commit -m 'Add some AmazingFeature'`)
+4. Dê um push na sua branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
 ## Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+## Contato
+
+Guilherme Santos - [@bladezika1](https://twitter.com/bladezika1) - g.santos.sfc@gmail.com
+
+Link do Projeto: [https://github.com/guilhermesantoss/moveit](https://github.com/guilhermesantoss/moveit)
