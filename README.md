@@ -1,4 +1,4 @@
-# Move.it
+<img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/logo-full.svg" alt="Logo" />
 
 <p>
   <img src="https://img.shields.io/github/repo-size/guilhermesantoss/moveit?color=darkblue" alt="Repository Size" />
