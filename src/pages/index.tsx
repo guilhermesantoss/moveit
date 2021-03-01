@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 import { GetServerSideProps } from 'next';
 
 import { CompleteChallenges } from "../components/CompletedChallenges";
@@ -11,6 +12,7 @@ import { ChallengesProvider } from '../context/ChallengesContext';
 import { CountdownProvider } from '../context/CountdownContext';
 
 import styles from '../styles/pages/Home.module.css';
+import { useEffect } from 'react';
 
 interface HomeProps {
   level: number;
@@ -19,6 +21,12 @@ interface HomeProps {
 }
 
 export default function Home(props: HomeProps) {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('/login');
+  }, []);
+
   return (
     <ChallengesProvider
       level={props.level}
@@ -52,9 +60,9 @@ export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
   return {
     props: {
-      level: Number(level),
-      currentExperience: Number(currentExperience),
-      challengesCompleted: Number(challengesCompleted),
+      level: Number(level ?? 1),
+      currentExperience: Number(currentExperience ?? 0),
+      challengesCompleted: Number(challengesCompleted ?? 0),
     }
   };
 }
