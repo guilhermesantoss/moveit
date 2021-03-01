@@ -1,68 +1,27 @@
-import Head from 'next/head';
-import { useRouter } from 'next/router';
-import { GetServerSideProps } from 'next';
-
-import { CompleteChallenges } from "../components/CompletedChallenges";
-import { Countdown } from "../components/Countdown";
-import { ExperienceBar } from "../components/ExperienceBar";
-import { Profile } from "../components/Profile";
-import { ChallengeBox } from "../components/ChallengeBox";
-
-import { ChallengesProvider } from '../context/ChallengesContext';
-import { CountdownProvider } from '../context/CountdownContext';
-
 import styles from '../styles/pages/Home.module.css';
-import { useEffect } from 'react';
 
-interface HomeProps {
-  level: number;
-  currentExperience: number;
-  challengesCompleted: number;
-}
-
-export default function Home(props: HomeProps) {
-  const router = useRouter();
-
-  useEffect(() => {
-    router.push('/login');
-  }, []);
-
+export default function Home() {
   return (
-    <ChallengesProvider
-      level={props.level}
-      currentExperience={props.currentExperience}
-      challengesCompleted={props.challengesCompleted}
-    >    
-      <div className={styles.container}>
-        <Head>
-          <title>Início | move.it</title>
-        </Head>
-        <ExperienceBar />
-
-        <CountdownProvider>
-          <section>
+    <div className={styles.containerLogin}>
+      <section>
+        <div />
+        <div className={styles.form}>
+          <header>
+            <img src="logo-full-white.svg" alt="Logo Move.it"/>
+          </header>
+          <main>
+            <h1>Bem vindo(a)</h1>
             <div>
-              <Profile />
-              <CompleteChallenges />
-              <Countdown />
+              <img src="icons/github.svg" alt="Logo Github"/>
+              <p>Faça seu login com seu Github para começar</p>
             </div>
-            <div className={styles.mb10}>
-              <ChallengeBox />
-            </div>
-          </section>
-        </CountdownProvider>
-      </div>
-    </ChallengesProvider>
+          </main>
+          <footer>
+            <input type="text" placeholder="Digite seu username"/>
+            <button><img src="icons/arrow-button.svg" alt="Seta Botão" /></button>
+          </footer>
+        </div>
+      </section>
+    </div>
   );
-}
-
-export const getServerSideProps: GetServerSideProps = async (ctx) => {
-  const { level, currentExperience, challengesCompleted } = ctx.req.cookies;
-  return {
-    props: {
-      level: Number(level ?? 1),
-      currentExperience: Number(currentExperience ?? 0),
-      challengesCompleted: Number(challengesCompleted ?? 0),
-    }
-  };
 }
