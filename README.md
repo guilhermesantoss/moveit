@@ -1,3 +1,6 @@
+* [Iniciando o projeto](#iniciando-o-projeto)
+* [Abertura de issues](#abertura-de-issues)
+
 <p align="center"><img src="https://raw.githubusercontent.com/guilhermesantoss/moveit/main/public/logo-full.svg" alt="Logo" /></p>
 
 <p align="center">
