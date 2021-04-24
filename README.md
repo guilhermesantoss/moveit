@@ -95,4 +95,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para ma
 
 ## Contato
 
-Guilherme Santos - [@bladezika1](https://twitter.com/bladezika1) - g.santos.sfc@gmail.com
+- [@bladezika1](https://twitter.com/bladezika1)
+- [g.santos.sfc@gmail.com](mailto:g.santos.sfc@gmail.com)
