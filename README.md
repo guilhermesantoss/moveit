@@ -62,18 +62,10 @@ Para obter uma cópia local instalada e funcionando, siga as etapas abaixo.
 2. Instale as dependências do projeto
    ```sh
    npm install
-   
-   ou
-   
-   yarn install
    ```
 3. Execute o projeto
    ```sh
    npm run dev
-   
-   ou
-   
-   yarn dev
    ```
 ## Abertura de issues
 
